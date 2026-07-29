@@ -26,7 +26,7 @@ jobs:
         
     - name: Generate Android files and Install dependencies
       run: |
-        flutter create . --platforms android
+        flutter create --project-name cyberhex_fiis . --platforms android
         flutter pub get
       
     - name: Build APK
